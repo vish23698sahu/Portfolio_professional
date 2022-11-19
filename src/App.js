@@ -3,6 +3,7 @@ import About from './components/About/About';
 import Blog from './components/Blog/Blog';
 import Contact from './components/Contact/Contact';
 import Expertise from './components/Expertise/Expertise';
+import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
 import Navbar from './components/Navbar/Navbar';
 import Portfolio from './components/Portfolio/Portfolio';
@@ -21,6 +22,7 @@ function App() {
       <Testimonial />
       <Blog />
       <Contact />
+      <Footer />
     </div>
   );
 }
