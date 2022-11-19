@@ -1,4 +1,6 @@
 import React from 'react';
+import ServiceCard from './ServiceCard';
+import ServiceData from './ServiceData';
 import './Services.css';
 
 const Services = () => {
@@ -16,34 +18,28 @@ const Services = () => {
         </div>
 
         <div className="row no-gutters">
+          {
+            ServiceData.map((val, index) => {
+              return <ServiceCard key={index} iClass={val.imageClasses} title={val.title} text={val.text} />
+            })
+          }
+
           {/* <div className="col-lg-4 col-md-6">
             <div className="card p-5 rounded-0">
-              <i className="ti-layers text-lg-2 text-muted"></i>
-              <h3 className="my-4 text-capitalize">Graphics Branding Design</h3>
+              <i className="ti-camera text-lg-2 text-muted"></i>
+              <h3 className="my-4 text-capitalize"></h3>
               <p>It can change the way we feel about a company and the products & services they offer.</p>
             </div>
           </div> */}
-          <div className="col-lg-4 col-md-6">
-            <div className="card p-5 rounded-0">
-              <i className="ti-layout text-lg-2 text-muted"></i>
-              <h3 className="my-4 text-capitalize">Front End Design Development</h3>
-              <p>It can change the way we feel about a company and the products & services they offer.</p>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6">
-            <div className="card p-5 rounded-0">
-              <i className="ti-camera text-lg-2 text-muted"></i>
-              <h3 className="my-4 text-capitalize">Videography Photography</h3>
-              <p>It can change the way we feel about a company and the products & services they offer.</p>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6">
+
+          {/* <div className="col-lg-4 col-md-6">
             <div className="card  p-5 rounded-0">
               <i className="ti-desktop text-lg-2 text-muted"></i>
               <h3 className="my-4 text-capitalize">Wordpress Development</h3>
               <p>It can change the way we feel about a company and the products & services they offer.</p>
             </div>
-          </div>
+          </div> */}
+
         </div>
 
         <div className="row align-items-center mt-5" >
