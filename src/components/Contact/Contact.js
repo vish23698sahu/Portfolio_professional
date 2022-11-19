@@ -40,7 +40,7 @@ const Contact = () => {
                 <textarea id="message" name="message" cols="30" rows="6" class="form-control bg-transparent" placeholder="Your Message"></textarea>
 
                 <div class="text-center">
-                  <input class="btn btn-main text-white mt-5" id="submit" name="submit" type="submit" className="btn btn-hero" value="Send Message" />
+                  <input class="btn-main  text-white btn mt-5" id="submit" name="submit" type="submit" className="btn btn-hero" value="Send Message" />
                 </div>
               </div>
             </form>
