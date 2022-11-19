@@ -4,7 +4,6 @@ import './Contact.css';
 const Contact = () => {
   return (
     <section className="section" id="contact">
-      <h1>Hello</h1>
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8">
