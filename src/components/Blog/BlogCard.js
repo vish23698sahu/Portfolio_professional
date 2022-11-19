@@ -3,6 +3,7 @@ import './Blog.css';
 
 const BlogCard = (props) => {
     return (
+        // Blog
         <div>
             <div className="col-md-8 blog__card__container">
                 {/* col-lg-4   */}
