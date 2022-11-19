@@ -1,0 +1,99 @@
+.section {
+    padding: 100px 0;
+}
+
+.section-title {
+    margin-bottom: 70px;
+}
+
+.section-title span {
+    letter-spacing: 4px;
+}
+
+.section-title .title {
+    text-transform: capitalize;
+}
+
+.page-title {
+    padding: 120px 0 60px;
+}
+
+.bg-gray {
+    background: #152136;
+}
+
+.text-color {
+    color: #e1a34c;
+}
+.letter-spacing {
+    letter-spacing: 1px;
+  }
+  .text-sm {
+    font-size: 14px;
+  }
+  .title {
+    font-size: 70px;
+    line-height: 80px;
+    position: relative;
+  }
+  #service .card {
+    transition: all .35s ease;
+    background: #19273e;
+  }
+  
+  #service .card h3 {
+    transition: all .35s ease;
+    opacity: .9;
+  }
+  
+  #service .card:hover {
+    border-bottom-color: #e1a34c;
+    background: transparent;
+  }
+  
+  #service .card:hover h3 {
+    color: #e1a34c;
+  }
+  .text-lg-2 {
+    font-size: 50px;
+    line-height: 56px;
+  }
+  .btn {
+    display: inline-block;
+    font-size: 18px;
+    padding: 13px 45px;
+    text-transform: capitalize;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+    border: 1px solid transparent;
+  }
+  
+  .btn:hover {
+    background: #aa6f1d;
+    color: #fff;
+  }
+  .btn-main {
+    background: #e1a34c;
+    color: #272727;
+    border-color: #e1a34c;
+  }
+  
+  .btn-main:hover {
+    background: transparent;
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+
+
+
+
+
+
+
+
+
+
+
+

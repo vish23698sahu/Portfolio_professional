@@ -1,0 +1,40 @@
+.py-7 {
+  padding-top: 15rem !important;
+  padding-bottom: 10rem !important;
+}
+h2 {
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.head-trans {
+  font-size: 120px;
+  opacity: .03;
+  position: absolute;
+  top: 23%;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.text-color {
+  color: #e1a34c;
+}
+
+.text-md {
+  font-size: 22px;
+}
+
+.btn-solid-border {
+  border-color: rgba(255, 255, 255, 0.2);
+  background: transparent;
+  color: #fff;
+}
+
+.btn-solid-border:hover {
+  border-color: #e1a34c;
+  background: #e1a34c;
+}
+
+
+
+

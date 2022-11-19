@@ -1,0 +1,75 @@
+.section {
+  padding: 100px 0;
+}
+
+.section-title {
+  margin-bottom: 70px;
+}
+
+.section-title span {
+  letter-spacing: 4px;
+}
+
+.section-title .title {
+  text-transform: capitalize;
+}
+
+.bg-gray {
+  background: #152136;
+}
+
+.text-color {
+  color: #e1a34c;
+}
+
+.letter-spacing {
+  letter-spacing: 1px;
+}
+
+.text-sm {
+  font-size: 14px;
+}
+
+.title {
+  font-size: 70px;
+  line-height: 80px;
+  position: relative;
+}
+
+.skill-bar {
+  padding: 80px 10px 0px 10px;
+}
+
+.progress {
+  height: 5px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: visible;
+  position: relative;
+  margin: 0 0 35px 0;
+  border-radius: 3px;
+}
+
+.progress-bar {
+  position: absolute;
+  width: 0;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #e1a34c;
+  border-radius: 3px;
+  transition: all 3s ease-in-out;
+}
+
+.progress-bar .percent-text {
+  font-size: 62px;
+  color: #fff;
+  position: absolute;
+  top: -110px;
+  left: 0;
+}
+
+
+
+
+

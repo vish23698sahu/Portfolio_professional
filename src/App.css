@@ -1,38 +1,73 @@
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700);
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:400,700");
+
+body {
+  line-height: 1.7;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  background: #131f33;
+  color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Work Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 50px;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 38px;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 34px;
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+h5 {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+p {
+  color: #8b98af;
+}
+
+body, html {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.portfolio {
+  background: #131f33;
+  color: #fff;
+}
+
+.text-white{
+  color: #fff;
+}
+
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

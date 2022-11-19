@@ -1,0 +1,36 @@
+.section {
+    padding: 100px 0;
+    color: aliceblue !important;
+}
+
+.section-title {
+    margin-bottom: 70px;
+}
+
+.section-title span {
+    letter-spacing: 4px;
+}
+
+.section-title .title {
+    text-transform: capitalize;
+}
+
+.text-md {
+    font-size: 22px;
+}
+
+.lh-45 {
+    line-height: 45px;
+}
+
+.text-color {
+    color: #e1a34c;
+}
+
+.text-color {
+    color: #efeae2;
+}
+
+h2 {
+    color: aliceblue;
+}
