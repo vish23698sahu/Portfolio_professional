@@ -27,20 +27,20 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div class="form-group col-lg-6 mb-5">
-                <input type="text" id="name" name="name" class="form-control bg-transparent" placeholder="Your Name" />
+              <div className="form-group col-lg-6 mb-5">
+                <input type="text" id="name" name="name" className="form-control bg-transparent" placeholder="Your Name" />
               </div>
-              <div class="form-group col-lg-6 mb-5">
-                <input type="text" name="email" id="email" class="form-control bg-transparent" placeholder="Your Email" />
+              <div className="form-group col-lg-6 mb-5">
+                <input type="text" name="email" id="email" className="form-control bg-transparent" placeholder="Your Email" />
               </div>
-              <div class="form-group col-lg-12 mb-5">
-                <input type="text" name="subject" id="subject" class="form-control bg-transparent" placeholder="Your Subject" />
+              <div className="form-group col-lg-12 mb-5">
+                <input type="text" name="subject" id="subject" className="form-control bg-transparent" placeholder="Your Subject" />
               </div>
-              <div class="form-group col-lg-12 mb-5">
-                <textarea id="message" name="message" cols="30" rows="6" class="form-control bg-transparent" placeholder="Your Message"></textarea>
+              <div className="form-group col-lg-12 mb-5">
+                <textarea id="message" name="message" cols="30" rows="6" className="form-control bg-transparent" placeholder="Your Message"></textarea>
 
-                <div class="text-center">
-                  <input class="btn-main  text-white btn mt-5" id="submit" name="submit" type="submit" className="btn btn-hero" value="Send Message" />
+                <div className="text-center">
+                  <input className="btn-main text-white btn mt-5" id="submit" name="submit" type="submit" value="Send Message" />
                 </div>
               </div>
             </form>

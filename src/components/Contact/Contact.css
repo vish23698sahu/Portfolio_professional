@@ -1,100 +1,106 @@
-
 .section {
-    padding: 100px 0;
-  }
-  
-  .section-title {
-    margin-bottom: 70px;
-  }
-  
-  .section-title span {
-    letter-spacing: 4px;
-  }
-  
-  .section-title .title {
-    text-transform: capitalize;
-  }
-  .section-title {
-    margin-bottom: 70px;
-  }
-  
-  .section-title span {
-    letter-spacing: 4px;
-  }
-  
-  .section-title .title {
-    text-transform: capitalize;
-  }
-  .text-color {
-    color: #e1a34c;
-  }
-  .letter-spacing {
-    letter-spacing: 1px;
-  }
-  .text-sm {
-    font-size: 14px;
-  }
-  .title {
-    font-size: 70px;
-    line-height: 80px;
-    position: relative;
-  }
-  .contact-form .form-control {
-    border: 0px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
-    padding-left: 0px;
-    font-size: 18px;
-  }
-  
-  .contact-form .form-control:hover {
-    border-bottom: 1px solid #e1a34c;
-  }
-  .form-control {
-    box-shadow: none;
-    border-radius: 0;
-  }
-  
-  .form-control:focus {
-    box-shadow: none;
-    border-bottom: 1px solid #e1a34c;
-  }
-  .comment-form .form-control,
-  .subscribe .form-control {
-    border: 1px solid rgba(255, 255, 255, 0.2);
-  }
-  .btn-main {
-    background: #e1a34c;
-    color: #272727;
-    border-color: #e1a34c;
-  }
-  
-  .btn-main:hover {
-    background: transparent;
-    color: #fff;
-    border-color: rgba(255, 255, 255, 0.2);
-  }
-  .btn {
-    display: inline-block;
-    font-size: 18px;
-    padding: 13px 45px;
-    text-transform: capitalize;
-    font-weight: 400;
-    letter-spacing: 1px;
-    border-radius: 3px;
-    transition: all 0.2s ease;
-    border: 1px solid transparent;
-  }
-  
-  .btn:hover {
-    background: #aa6f1d;
-    color: #fff;
-  }
-.text-white{
-  color: #FFFFFF !important;
+  padding: 100px 0;
 }
 
+.section-title {
+  margin-bottom: 70px;
+}
 
+.section-title span {
+  letter-spacing: 4px;
+}
 
+.section-title .title {
+  text-transform: capitalize;
+}
 
+.section-title {
+  margin-bottom: 70px;
+}
+
+.section-title span {
+  letter-spacing: 4px;
+}
+
+.section-title .title {
+  text-transform: capitalize;
+}
+
+.text-color {
+  color: #e1a34c;
+}
+
+.letter-spacing {
+  letter-spacing: 1px;
+}
+
+.text-sm {
+  font-size: 14px;
+}
+
+.title {
+  font-size: 70px;
+  line-height: 80px;
+  position: relative;
+}
+
+.contact-form .form-control {
+  border: 0px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  padding-left: 0px;
+  font-size: 18px;
+}
+
+.contact-form .form-control:hover {
+  border-bottom: 1px solid #e1a34c;
+}
+
+.form-control {
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-bottom: 1px solid #e1a34c;
+}
+
+.comment-form .form-control,
+.subscribe .form-control {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.btn-main {
+  background: #e1a34c;
+  color: #272727;
+  border-color: #e1a34c;
+}
+
+.btn-main:hover {
+  background: transparent;
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  padding: 13px 45px;
+  text-transform: capitalize;
+  font-weight: 400;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+}
+
+.btn:hover {
+  background: #aa6f1d;
+  color: #fff;
+}
+
+.text-white {
+  color: #FFFFFF !important;
+}
 
 
