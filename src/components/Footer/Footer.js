@@ -20,7 +20,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="col-lg-5">
-                        <p className="lead"><span className="text-color">Dreambuzz</span> © 2019 All Right Reserved Ratsaan.</p>
+                        <p className="lead"><span className="text-color">DreamBig</span> © 2022 All Right Reserved Vishakha.</p>
                         <a className="backtop smoth-scroll"><i className="ti-angle-up"></i></a>
                     </div>
                 </div>

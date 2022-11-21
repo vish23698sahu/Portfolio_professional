@@ -5,9 +5,9 @@ import blog3 from '../images/blog/blog3.png'
 const blogData = [
     {
         image: blog1,
-        admin: "Admin",
+        admin: "Vishakha",
         type: "Photography",
-        title: "20 Best Startup Ideas for Designers",
+        title: "Elon Musk and Books",
     },
     {
         image: blog2,

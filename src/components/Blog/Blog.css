@@ -67,7 +67,10 @@
 .blog__card__container{
   width: 380px;
 }
-
+.blog__title__width{
+  margin-top: 10px;
+  width: 260px;
+}
 
 
 
