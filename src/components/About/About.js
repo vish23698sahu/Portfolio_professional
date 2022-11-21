@@ -13,7 +13,7 @@ const About = () => {
               </div>
               <div className="col-lg-8">
                 <p className="text-white-50 text-md">Hello! Im <span className="text-white">Vishakha Sahu</span> a self-taught Digital <span className="text-white">Designer & Developer</span> with over <span className="text-white">1.5 years</span> of work experience.</p>
-                <p className="text-white-50 text-md">Love the Web and the work I do. Work closely with my users to deliver the best <span className="text-white">possible solutions</span> for their needs</p>
+                <p className="text-white-50 text-md">Love the Web and the work I do. Work closely with my users to deliver the best <span className="text-white">possible solutions</span> for their requirements.</p>
               </div>
             </div>
           </div>

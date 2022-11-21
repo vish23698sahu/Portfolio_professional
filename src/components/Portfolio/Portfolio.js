@@ -17,16 +17,14 @@ const Portfolio = () => {
         </div>
       </div>
 
-      <div className="container-fluid">
-        <div className="row">
-          <div className="post_gallery owl-theme">
-            {/* owl-carousel */}
-            {
-              PortfolioData.map((value, index) => {
-                return <PortfolioCard key={index} img={value.image} title={value.title} text={value.text} />
-              })
-            }
-          </div>
+      <div className=" portfolio__container">
+        <div className="post_gallery portfolio__container owl-theme">
+          {/* owl-carousel */}
+          {
+            PortfolioData.map((value, index) => {
+              return <PortfolioCard key={index} img={value.image} title={value.title} text={value.text} />
+            })
+          }
         </div>
       </div>
     </section>

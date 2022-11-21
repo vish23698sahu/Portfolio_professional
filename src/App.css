@@ -9,8 +9,6 @@ body {
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
   background: #131f33;
-  /* color: #fff; */
-  /* scroll-behavior: smooth; */
 }
 
 h1, h2, h3, h4, h5, h6 {

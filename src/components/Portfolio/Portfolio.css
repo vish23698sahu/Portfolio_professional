@@ -1,5 +1,5 @@
 .section {
-    padding: 100px 0;
+    padding: 10px;
   }
   .section-title {
     margin-bottom: 70px;
@@ -89,10 +89,15 @@
   } */
 
 .item{
-  width: 450px;
+  max-width: 400px;
+  width: 380px;
+  margin: 6px 6px 6px 12px;
 }
 
-
+.portfolio__container{
+  display: flex;
+  flex-direction: row;
+}
 
 
 
