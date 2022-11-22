@@ -17,12 +17,12 @@ const Portfolio = () => {
         </div>
       </div>
 
-      <div className=" portfolio__container">
+      <div className="portfolio__container">
         <div className="post_gallery portfolio__container owl-theme">
           {/* owl-carousel */}
           {
             PortfolioData.map((value, index) => {
-              return <PortfolioCard key={index} img={value.image} title={value.title} text={value.text} />
+              return <PortfolioCard key={index} img={value.image} title={value.title} text={value.text} pUrl={value.pUrl} />
             })
           }
         </div>

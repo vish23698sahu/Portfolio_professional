@@ -65,7 +65,24 @@ body, html {
 .text-white{
   color: #fff;
 }
-
 .App {
   text-align: center;
+}
+
+
+@media screen and (max-width:786px) {
+  .navbar-toggler {
+    background: #fff !important;
+  }
+  .navigation {
+    background: #131f33 !important;
+  }
+  .text-lg {
+    font-size: 68px;
+    line-height: 70px;
+  }
+  .py-7 {
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
+  }
 }

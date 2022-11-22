@@ -16,7 +16,7 @@ const Home = () => {
           <div className="col-lg-6 col-12 col-md-7">
             <div className="ml-5 position-relative mt-5 mt-lg-0">
               <span className="head-trans">Vishakha</span>
-              <h1 className="font-weight-normal text-color text-md"><i className="ti-minus mr-2"></i>Theme Developer</h1>
+              <h1 className="font-weight-normal text-color text-md"><i className="ti-minus mr-2"></i>Web Developer</h1>
               <h2 className="mt-3 text-lg mb-3 text-capitalize">Vishakha Sahu.</h2>
               <p className="animated fadeInUp lead mt-4 mb-5 text-white-50 lh-35">I work in the sweet spot for innovation, somewhere between strategy, design and technology. In love with the Web and the work I do.</p>
               <a href="#about" className="btn-solid-border btn">About Me</a>

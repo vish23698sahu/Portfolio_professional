@@ -7,7 +7,7 @@ const PortfolioCard = (props) => {
                 <img src={props.img} className="img-fluid" alt="do it" width='450px' />
 
                 <div className="portoflio-item-overlay">
-                    <a href="#"><i className="ti-plus"></i></a>
+                    <a href={props.pUrl} target="_blank" rel='noreferrer'><i className="ti-plus"></i></a>
                 </div>
             </div>
             <div className="text mt-3">
