@@ -35,3 +35,24 @@
 .navbar-toggle .icon-bar {
     background: #e1a34c;
 }
+.nav__close{
+
+}
+
+@media screen and (max-width:786px) {
+    /* .nav__full{
+        display: block;
+    } */
+    .nav__mobile{
+        width: 50px;
+        height: 100px;
+        background: #e1a34c;
+        color: black;
+        align-self: flex-start;
+        margin-left: 0;
+        padding-left: 0;
+    }
+}
+
+
+

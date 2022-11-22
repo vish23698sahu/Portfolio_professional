@@ -1,8 +1,9 @@
-import React from 'react';
-// import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
 import './Navbar.css';
 
 const Navbar = () => {
+  const [mobile, setMobile] = useState(false);
+
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-transprent py-4 fixed-top navigation" id="navbar">
@@ -10,17 +11,20 @@ const Navbar = () => {
           <a className="navbar-brand" href="index.html">
             <h2 className="logo">Vishakha.</h2>
           </a>
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="ti-view-list"></span>
+          <button className="navbar-toggler" type="button" onClick={() => setMobile(!mobile)} data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+            {
+              mobile ?
+                <i class="fa-regular fa-circle-xmark nav__close"></i> :
+                <span className="ti-view-list nav__open"></span>
+            }
           </button>
 
           <div className="collapse navbar-collapse text-center" id="navbarsExample09">
-            <ul className="navbar-nav mx-auto">
+            <ul className={mobile ? "nav__mobile" : "navbar-nav mx-auto nav__full"}>
               <li className="nav-item active">
                 <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
               </li>
               <li className="nav-item"><a class="nav-link smoth-scroll" href="#about">About</a></li>
-              {/* <Link to='/about' className="nav-item" >About</Link> */}
               <li className="nav-item"><a className="nav-link smoth-scroll" href="#skillbar">Expertise</a></li>
               <li className="nav-item"><a className="nav-link smoth-scroll" href="#service">Services</a></li>
               <li className="nav-item"><a className="nav-link smoth-scroll" href="#portfolio">portfolio</a></li>
