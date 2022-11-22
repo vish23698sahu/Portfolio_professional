@@ -1,3 +1,4 @@
+import { Route } from 'react-router-dom';
 import './App.css';
 import About from './components/About/About';
 import Blog from './components/Blog/Blog';
@@ -9,18 +10,35 @@ import Navbar from './components/Navbar/Navbar';
 import Portfolio from './components/Portfolio/Portfolio';
 import Services from './components/Services/Services';
 import Testimonial from './components/Testimonial/Testimonial';
+import SingleBlog from './components/Blog/Single_Blog/SingleBlog';
+
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Home />
-      <About />
-      <Expertise />
-      <Services />
-      <Portfolio />
-      <Testimonial />
-      <Blog />
+      <Route path='/' >
+        <Home />
+      </Route>
+      <Route path='/' >
+        <About />
+      </Route>
+      <Route path='/' >
+        <Expertise />
+      </Route>
+      <Route path='/' >
+        <Services />
+      </Route>
+      <Route>
+        <Portfolio />
+      </Route>
+      {/* <Testimonial /> */}
+      <Route path='/'>
+        <Blog />
+      </Route>
+      <Route path='/singleBlog' exact>
+        <SingleBlog />
+      </Route>
       <Contact />
       <Footer />
     </div>

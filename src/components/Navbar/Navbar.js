@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -16,11 +17,12 @@ const Navbar = () => {
           <div className="collapse navbar-collapse text-center" id="navbarsExample09">
             <ul className="navbar-nav mx-auto">
               <li className="nav-item active">
-                <a className="nav-link" href="index.html">Home <span className="sr-only">(current)</span></a>
+                <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
               </li>
               <li className="nav-item"><a class="nav-link smoth-scroll" href="#about">About</a></li>
-              <li className="nav-item"><a class="nav-link smoth-scroll" href="#skillbar">Expertise</a></li>
-              <li className="nav-item"><a class="nav-link smoth-scroll" href="#service">Services</a></li>
+              {/* <Link to='/about' className="nav-item" >About</Link> */}
+              <li className="nav-item"><a className="nav-link smoth-scroll" href="#skillbar">Expertise</a></li>
+              <li className="nav-item"><a className="nav-link smoth-scroll" href="#service">Services</a></li>
               <li className="nav-item"><a class="nav-link smoth-scroll" href="#portfolio">portfolio</a></li>
               <li className="nav-item"><a class="nav-link smoth-scroll" href="#blog">Blog</a></li>
               <li className="nav-item"><a class="nav-link smoth-scroll" href="#contact">Contact</a></li>
