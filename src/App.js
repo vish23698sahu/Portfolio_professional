@@ -17,29 +17,31 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Route path='/' >
+      <Route path='/' exact>
         <Home />
       </Route>
-      <Route path='/' >
+      <Route path='/about' exact >
         <About />
       </Route>
-      <Route path='/' >
+      <Route path='/skillbar' exact>
         <Expertise />
       </Route>
-      <Route path='/' >
+      <Route path='/services' exact>
         <Services />
       </Route>
-      <Route>
+      <Route path='/portfolio' exact >
         <Portfolio />
       </Route>
       {/* <Testimonial /> */}
-      <Route path='/'>
+      <Route path='/blog' exact>
         <Blog />
       </Route>
       <Route path='/singleBlog' exact>
         <SingleBlog />
       </Route>
-      <Contact />
+      <Route path='/contact' exact>
+        <Contact />
+      </Route>
       <Footer />
     </div>
   );

@@ -1,35 +1,30 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 const Navbar = () => {
-  const [mobile, setMobile] = useState(false);
-
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-transprent py-4 fixed-top navigation" id="navbar">
         <div className="container">
-          <a className="navbar-brand" href="index.html">
-            <h2 className="logo">Vishakha.</h2>
-          </a>
-          <button className="navbar-toggler" type="button" onClick={() => setMobile(!mobile)} data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
-            {
-              mobile ?
-                <i class="fa-regular fa-circle-xmark nav__close"></i> :
-                <span className="ti-view-list nav__open"></span>
-            }
+          <Link to='/' className="navbar-brand"><h2 className="logo">Vishakha.</h2></Link>
+
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="ti-view-list nav__open"></span>
           </button>
 
           <div className="collapse navbar-collapse text-center" id="navbarsExample09">
-            <ul className={mobile ? "nav__mobile" : "navbar-nav mx-auto nav__full"}>
+            <ul className="navbar-nav mx-auto" >
               <li className="nav-item active">
                 <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
               </li>
-              <li className="nav-item"><a class="nav-link smoth-scroll" href="#about">About</a></li>
-              <li className="nav-item"><a className="nav-link smoth-scroll" href="#skillbar">Expertise</a></li>
-              <li className="nav-item"><a className="nav-link smoth-scroll" href="#service">Services</a></li>
-              <li className="nav-item"><a className="nav-link smoth-scroll" href="#portfolio">portfolio</a></li>
-              <li className="nav-item"><a className="nav-link smoth-scroll" href="#blog">Blog</a></li>
-              <li className="nav-item"><a className="nav-link smoth-scroll" href="#contact">Contact</a></li>
+              <li className="nav-item"><Link to='/about' className='nav-link smoth-scroll'>About</Link></li>
+              <li className="nav-item"><Link to='/skillbar' className='nav-link smoth-scroll'>Expertise</Link></li>
+              <li className="nav-item"><Link to='/services' className='nav-link smoth-scroll'>Services</Link></li>
+              <li className="nav-item"><Link to='/portfolio' className='nav-link smoth-scroll'>Portfolio</Link></li>
+              <li className="nav-item"><Link to='/blog' className='nav-link smoth-scroll'>Blog</Link></li>
+              {/* <li className="nav-item"><a className="nav-link smoth-scroll" href="#skillbar">Expertise</a></li> */}
+              <Link to='/contact' className='nav-link smoth-scroll'>Contact</Link>
             </ul>
 
             <ul className="list-inline mb-0 ml-lg-4 nav-social">

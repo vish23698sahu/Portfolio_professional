@@ -1,3 +1,8 @@
+
+html{
+  scroll-behavior: smooth;
+}
+
 .py-7 {
   padding-top: 15rem !important;
   padding-bottom: 10rem !important;
