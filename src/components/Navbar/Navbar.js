@@ -23,15 +23,15 @@ const Navbar = () => {
               {/* <Link to='/about' className="nav-item" >About</Link> */}
               <li className="nav-item"><a className="nav-link smoth-scroll" href="#skillbar">Expertise</a></li>
               <li className="nav-item"><a className="nav-link smoth-scroll" href="#service">Services</a></li>
-              <li className="nav-item"><a class="nav-link smoth-scroll" href="#portfolio">portfolio</a></li>
-              <li className="nav-item"><a class="nav-link smoth-scroll" href="#blog">Blog</a></li>
-              <li className="nav-item"><a class="nav-link smoth-scroll" href="#contact">Contact</a></li>
+              <li className="nav-item"><a className="nav-link smoth-scroll" href="#portfolio">portfolio</a></li>
+              <li className="nav-item"><a className="nav-link smoth-scroll" href="#blog">Blog</a></li>
+              <li className="nav-item"><a className="nav-link smoth-scroll" href="#contact">Contact</a></li>
             </ul>
 
             <ul className="list-inline mb-0 ml-lg-4 nav-social">
               <li className="list-inline-item"><a href="https://www.facebook.com/"><i className="ti-facebook"></i></a></li>
               <li className="list-inline-item"><a href="https://twitter.com/?lang=en-in"><i className="ti-twitter"></i></a></li>
-              {/* <li className="list-inline-item"><a href="#"><i className="ti-pinterest"></i></a></li> */}
+              {/* <li className="list-inline-item"><a href="https://www.instagram.com/"><i className="fa-brands fa-instagram"></i></a></li> */}
             </ul>
           </div>
         </div>
