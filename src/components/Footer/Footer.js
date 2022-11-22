@@ -12,16 +12,14 @@ const Footer = () => {
 
                     <div className="col-lg-5">
                         <ul className="list-inline footer-socials ">
-                            <li className="list-inline-item"><a href="#"><i className="ti-facebook"></i></a></li>
-                            <li className="list-inline-item"><a href="#"><i className="ti-twitter"></i></a></li>
-                            <li className="list-inline-item"><a href="#"><i className="ti-pinterest"></i></a></li>
-                            <li className="list-inline-item"><a href="#"><i className="ti-linkedin"></i></a></li>
-                            <li className="list-inline-item"><a href="#"><i className="ti-dribbble"></i></a></li>
+                            <li className="list-inline-item"><a href="https://www.facebook.com/"><i className="ti-facebook"></i></a></li>
+                            <li className="list-inline-item"><a href="https://twitter.com/?lang=en-in"><i className="ti-twitter"></i></a></li>
+                            <li className="list-inline-item"><a href="https://www.linkedin.com/in/vishakhasahu/"><i className="ti-linkedin"></i></a></li>
                         </ul>
                     </div>
                     <div className="col-lg-5">
                         <p className="lead"><span className="text-color">DreamBig</span> © 2022 All Right Reserved Vishakha.</p>
-                        <a className="backtop smoth-scroll"><i className="ti-angle-up"></i></a>
+                        <a href='#home' className="backtop smoth-scroll"><i className="ti-angle-up"></i></a>
                     </div>
                 </div>
             </div>
