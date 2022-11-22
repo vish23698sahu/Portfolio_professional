@@ -29,9 +29,9 @@ const Navbar = () => {
             </ul>
 
             <ul className="list-inline mb-0 ml-lg-4 nav-social">
-              <li className="list-inline-item"><a href=""><i className="ti-facebook"></i></a></li>
-              <li className="list-inline-item"><a href="#"><i className="ti-twitter"></i></a></li>
-              <li className="list-inline-item"><a href="#"><i className="ti-pinterest"></i></a></li>
+              <li className="list-inline-item"><a href="https://www.facebook.com/"><i className="ti-facebook"></i></a></li>
+              <li className="list-inline-item"><a href="https://twitter.com/?lang=en-in"><i className="ti-twitter"></i></a></li>
+              {/* <li className="list-inline-item"><a href="#"><i className="ti-pinterest"></i></a></li> */}
             </ul>
           </div>
         </div>

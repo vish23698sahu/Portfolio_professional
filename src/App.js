@@ -9,7 +9,7 @@ import Home from './components/Home/Home';
 import Navbar from './components/Navbar/Navbar';
 import Portfolio from './components/Portfolio/Portfolio';
 import Services from './components/Services/Services';
-import Testimonial from './components/Testimonial/Testimonial';
+// import Testimonial from './components/Testimonial/Testimonial';
 import SingleBlog from './components/Blog/Single_Blog/SingleBlog';
 
 

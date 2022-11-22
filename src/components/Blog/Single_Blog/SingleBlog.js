@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './SingleBlog.css';
 
 const SingleBlog = () => {
@@ -37,11 +36,9 @@ const SingleBlog = () => {
 
                             <div class="row mt-5 p-4">
                                 <div class="post-share">
-                                    <a href="#" class="facebook">Facebook</a>
-                                    <a href="#" class="twitter">Twitter</a>
-                                    <a href="#" class="googleplus">Google Plus</a>
-                                    <a href="#" class="dribbble">Dribbble</a>
-                                    <a href="#" class="instagram">Instagram</a>
+                                    <a href="https://www.facebook.com/" class="facebook">Facebook</a>
+                                    <a href="https://twitter.com/?lang=en-in" class="twitter">Twitter</a>
+                                    <a href="https://www.instagram.com/" class="instagram">Instagram</a>
                                 </div>
                             </div>
 
@@ -58,7 +55,7 @@ const SingleBlog = () => {
                                         <textarea name="cmnt" id="cmnt" cols="30" rows="4" placeholder="Comments" class="form-control  bg-transparent"></textarea>
                                     </div>
                                     <div class="text-center">
-                                        <a href="#" class="btn btn-main">Comment</a>
+                                        <a href="#blog" class="btn btn-main">Comment</a>
                                     </div>
                                 </form>
                             </div>
@@ -79,15 +76,15 @@ const SingleBlog = () => {
                                     <h3 class="text-center mb-4">Latest Posts</h3>
                                     <ul class="list-unstyled">
                                         <li>
-                                            <a href="#" class="text-white d-block mb-1">Speed up your website in second</a>
+                                            <a href="#home" class="text-white d-block mb-1">Speed up your website in second</a>
                                             <span class="text-white-50">10 april 2019</span>
                                         </li>
                                         <li class="my-4">
-                                            <a href="#" class="text-white d-block mb-1">Speed up your website in second</a>
+                                            <a href="#home" class="text-white d-block mb-1">Speed up your website in second</a>
                                             <span class="text-white-50">05 april 2019</span>
                                         </li>
                                         <li>
-                                            <a href="#" class="text-white d-block mb-1">Speed up your website in second</a>
+                                            <a href="#home" class="text-white d-block mb-1">Speed up your website in second</a>
                                             <span class="text-white-50">04 april 2019</span>
                                         </li>
                                     </ul>
@@ -97,7 +94,7 @@ const SingleBlog = () => {
                                     <h3 class="text-center mb-4">Subscribe for latest post!</h3>
                                     <input type="text" class="form-control bg-transparent mb-3" placeholder="Put Your Email" />
                                     <div class="text-center">
-                                        <a href="#" class="btn btn-light btn-small">Subscribe</a>
+                                        <a href="#home" class="btn btn-light btn-small">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
