@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="container">
                 <div className="row align-items-center text-center text-lg-left">
                     <div className="col-lg-2">
-                        <h2 className="logo mb-4">Ratsaan.</h2>
+                        <h2 className="logo mb-4">Vishakha.</h2>
                     </div>
 
                     <div className="col-lg-5">
