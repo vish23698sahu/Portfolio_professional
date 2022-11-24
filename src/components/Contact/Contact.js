@@ -3,7 +3,7 @@ import './Contact.css';
 
 const Contact = () => {
   return (
-    <section className="section" id="contact">
+    <section className="section" id="contact" data-aos="fade-up">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8">

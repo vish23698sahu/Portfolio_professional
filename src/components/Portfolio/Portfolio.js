@@ -5,7 +5,7 @@ import './Portfolio.css';
 
 const Portfolio = () => {
   return (
-    <section className="section" id="portfolio">
+    <section className="section" id="portfolio" data-aos="fade-up">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8">

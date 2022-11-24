@@ -9,7 +9,6 @@ import Home from './components/Home/Home';
 import Navbar from './components/Navbar/Navbar';
 import Portfolio from './components/Portfolio/Portfolio';
 import Services from './components/Services/Services';
-// import Testimonial from './components/Testimonial/Testimonial';
 import SingleBlog from './components/Blog/Single_Blog/SingleBlog';
 
 
@@ -32,7 +31,6 @@ function App() {
       <Route path='/portfolio' exact >
         <Portfolio />
       </Route>
-      {/* <Testimonial /> */}
       <Route path='/blog' exact>
         <Blog />
       </Route>
@@ -42,7 +40,9 @@ function App() {
       <Route path='/contact' exact>
         <Contact />
       </Route>
-      <Footer />
+      <Route path='/contact'>
+        <Footer />
+      </Route>
     </div>
   );
 }

@@ -4,7 +4,7 @@ import './Home.css';
 
 const Home = () => {
   return (
-    <section className="slider py-7 ">
+    <section className="slider py-7">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-5 col-sm-12 col-12 col-md-5">

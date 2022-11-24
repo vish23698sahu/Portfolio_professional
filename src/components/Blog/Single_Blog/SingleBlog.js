@@ -2,10 +2,8 @@ import React from 'react';
 import './SingleBlog.css';
 
 const SingleBlog = () => {
-
-
     return (
-        <section>
+        <section data-aos="fade-up">
             <section class="page-title">
                 <div class="container">
                     <div class="row justify-content-center">

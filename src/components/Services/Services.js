@@ -5,8 +5,7 @@ import './Services.css';
 
 const Services = () => {
   return (
-    <section className="section bg-gray" id="service">
-      {/* data-aos="fade-up" */}
+    <section className="section bg-gray" id="service" data-aos="fade-up">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8">

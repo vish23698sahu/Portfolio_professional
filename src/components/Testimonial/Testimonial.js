@@ -3,8 +3,7 @@ import React from 'react'
 const Testimonial = () => {
     return (
         <div>
-            <section className="section testomionial">
-                {/* data-aos="fade-up" */}
+            <section className="section testomionial" data-aos="fade-up">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8">

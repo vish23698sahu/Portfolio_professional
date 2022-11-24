@@ -62,14 +62,10 @@
 }
 
 .progress-bar .percent-text {
-  font-size: 62px;
+  font-size: 45px;
   color: #fff;
   position: absolute;
-  top: -110px;
+  top: -80px;
   left: 0;
 }
-
-
-
-
 
