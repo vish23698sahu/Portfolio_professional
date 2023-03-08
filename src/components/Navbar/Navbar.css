@@ -3,6 +3,10 @@
     border-bottom: 1px solid transparent;
 }
 
+.nav-1{
+    background-color: #131f33;
+}
+
 .navbar-brand .logo {
     color: #fff;
 }
