@@ -106,6 +106,14 @@
   text-align: center;
 }
 
+.contact_invalid{
+  text-align: center;
+}
+
+.alert-failure{
+  color: rgb(213, 104, 104);
+}
+
 .center{
   display: flex;
   justify-content: center;
