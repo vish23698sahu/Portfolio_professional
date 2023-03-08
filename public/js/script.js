@@ -6,7 +6,6 @@ AOS.init({
 (function ($) {
     'use strict';
 
-
     // post gallery
 
     $('.post_gallery').owlCarousel({
@@ -54,8 +53,6 @@ AOS.init({
     });
 
 
-
-
     $('a.smoth-scroll').on('click', function (e) {
         var anchor = $(this);
         $('html, body').stop().animate({
@@ -63,18 +60,6 @@ AOS.init({
         }, 1000);
         e.preventDefault();
     });
-
-
-    $('.testimonial-slider').slick({
-        slidesToShow: 1,
-        infinite: true,
-        dots: true,
-        arrows: false,
-        autoplay: true,
-        autoplaySpeed: 5000
-    });
-
-
 
     $(window).on('load', function () { // makes sure the whole site is loaded
 
@@ -85,7 +70,7 @@ AOS.init({
             var width = $(this).data('percent');
             $(this).css({ 'transition': 'width 3s' });
             $(this).appear(function () {
-                console.log('hello');
+                // console.log('hello');
                 $(this).css('width', width + '%');
                 $(this).find('.count').countTo({
                     from: 0,
@@ -96,11 +81,7 @@ AOS.init({
             });
         });
 
-
     });  //End On Load Function
-
-
-
 
 
 })(jQuery);

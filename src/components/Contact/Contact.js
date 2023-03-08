@@ -2,6 +2,20 @@ import React from 'react';
 import './Contact.css';
 
 const Contact = () => {
+
+  const onSubmitClickHandler = (e) => {
+    e.preventDefault();
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwfa8SDWR7O-eFHI0bexwhISYhz8Mwydtvpb2a8h7z2njN_I5ICgU9BAv6r4gtX-f97EQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  }
+
   return (
     <section className="section" id="contact">
       <div className="container">
@@ -17,38 +31,40 @@ const Contact = () => {
         <div className="row justify-content-center">
 
           <div className="col-lg-8">
-            <form className="contact__form form-row contact-form" method="post" action="mail.php" id="contactForm">
 
-              <div className="row">
-                <div className="col-12">
-                  {/* <div className="alert alert-success contact__msg" style="display: none" role="alert">
-                    Your message was sent successfully.
-                  </div> */}
+            {/* <div className="row">
+              <div className="col-12">
+                <div className="alert alert-success contact__msg" role="alert">
+                  contact__form
+                  Your message was sent successfully.
                 </div>
               </div>
+            </div> */}
+
+            <form className="contact__form form-row contact-form" onSubmit={onSubmitClickHandler} name='submit-to-google-sheet' id="contactForm">
 
               <div className="form-group col-lg-6 mb-5">
-                <input type="text" id="name" name="name" className="form-control bg-transparent" placeholder="Your Name" />
+                <input type="text" id="Name" name="Name" className="form-control bg-transparent" placeholder="Your Name" />
               </div>
               <div className="form-group col-lg-6 mb-5">
-                <input type="text" name="email" id="email" className="form-control bg-transparent" placeholder="Your Email" />
+                <input type="text" name="Email" id="Email" className="form-control bg-transparent" placeholder="Your Email" />
               </div>
               <div className="form-group col-lg-12 mb-5">
-                <input type="text" name="subject" id="subject" className="form-control bg-transparent" placeholder="Your Subject" />
+                <input type="text" name="Subject" id="Subject" className="form-control bg-transparent" placeholder="Your Subject" />
               </div>
               <div className="form-group col-lg-12 mb-5">
-                <textarea id="message" name="message" cols="30" rows="6" className="form-control bg-transparent" placeholder="Your Message"></textarea>
+                <textarea id="message" name="Message" cols="30" rows="6" className="form-control bg-transparent" placeholder="Your Message"></textarea>
 
                 <div className="text-center">
-                  <input className="btn-main text-white btn mt-5" id="submit" name="submit" type="submit" value="Send Message" />
+                  <input className="btn-main text-white btn mt-5" type='submit' value="Send Note" />
                 </div>
               </div>
             </form>
           </div>
-
         </div>
-      </div>
-    </section>
+
+      </div >
+    </section >
   )
 }
 
