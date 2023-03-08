@@ -3,7 +3,7 @@ import './Expertise.css';
 
 const Expertise = () => {
   return (
-    <section class="section bg-gray" id="skillbar" data-aos="fade-up">
+    <section class="section bg-gray" id="skillbar">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8">

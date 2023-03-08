@@ -1,36 +1,37 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
 import './Navbar.css';
 
-const Navbar = () => {
+const Nav__save = () => {
+  const [mobile, setMobile] = useState(false);
+
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-transprent py-4 fixed-top navigation" id="navbar">
         <div className="container">
-          <Link to='/' className="navbar-brand"><h2 className="logo">_Vishakha</h2></Link>
-
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="ti-view-list nav__open"></span>
+          <a className="navbar-brand" href="#home">
+            <h2 className="logo">_Vishakha</h2>
+          </a>
+          <button className="navbar-toggler" type="button" onClick={() => setMobile(!mobile)} data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+            {
+              mobile ?
+                <i className="fa-regular fa-circle-xmark nav__close"></i> :
+                <span className="ti-view-list nav__open"></span>
+            }
           </button>
 
           <div className="collapse navbar-collapse text-center" id="navbarsExample09">
-            <ul className="navbar-nav mx-auto" id='navbar' >
-              <li className="nav-item active">
-                <a className="nav-link" href="/">Home<span className="sr-only">(current)</span></a>
-              </li>
-              <li className="nav-item"><Link to='/about' className='nav-link smoth-scroll'>About</Link></li>
-              <li className="nav-item"><Link to='/skillbar' className='nav-link smoth-scroll'>Expertise</Link></li>
-              <li className="nav-item"><Link to='/services' className='nav-link smoth-scroll'>Services</Link></li>
-              <li className="nav-item"><Link to='/portfolio' className='nav-link smoth-scroll'>Portfolio</Link></li>
-              <li className="nav-item"><Link to='/blog' className='nav-link smoth-scroll'>Blog</Link></li>
-              <Link to='/contact' className='nav-link smoth-scroll'>Contact</Link>
+            <ul className={mobile ? "nav__mobile" : "navbar-nav mx-auto nav__full"}>
+              <li className="nav-item"><a class="nav-link smoth-scroll" href="#about">About</a></li>
+              <li className="nav-item"><a className="nav-link smoth-scroll" href="#skillbar">Skills</a></li>
+              <li className="nav-item"><a className="nav-link smoth-scroll" href="#portfolio">portfolio</a></li>
+              {/* <li className="nav-item"><a className="nav-link smoth-scroll" href="#blog">Blog</a></li> */}
+              <li className="nav-item"><a className="nav-link smoth-scroll" href="#contact">Contact</a></li>
             </ul>
 
             <ul className="list-inline mb-0 ml-lg-4 nav-social">
-              <li className="list-inline-item"><a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><i className="ti-facebook"></i></a></li>
-              {/* <li className="list-inline-item"><a href="https://twitter.com/?lang=en-in" target="_blank" rel="noreferrer"><i className="ti-twitter"></i></a></li> */}
-              <li className="list-inline-item"><a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><i className="fa-brands fa-instagram"></i></a></li>
-              <li className="list-inline-item"><a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><i className="ti-linkedin"></i></a></li>
+              <li className="list-inline-item"><a href="https://github.com/vish23698sahu" target='_blank' rel="noreferrer"><i className="ti-github"></i></a></li>
+              <li className="list-inline-item"><a href="https://www.linkedin.com/in/vishakhasahu/" target='_blank' rel="noreferrer"><i className="ti-linkedin"></i></a></li>
+              <li className="list-inline-item"><a href="https://www.instagram.com/" target='_blank' rel="noreferrer" ><i className="fa-brands fa-instagram"></i></a></li>
             </ul>
           </div>
         </div>
@@ -39,4 +40,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Nav__save

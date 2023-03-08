@@ -5,7 +5,7 @@ import BlogCard from './BlogCard';
 
 const Blog = () => {
   return (
-    <section className="section border-top-1" id="blog" data-aos="fade-up">
+    <section className="section border-top-1" id="blog" >
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8">

@@ -3,7 +3,7 @@ import './About.css';
 
 const About = () => {
   return (
-    <section className="section " id="about" data-aos="fade-up">
+    <section className="section " id="about">
       <div className="container">
         <div className='section-title text-center'>
           <span className="text-color mb-0 text-uppercase letter-spacing text-sm"> <i className="ti-minus mr-2"></i>ME</span>

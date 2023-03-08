@@ -3,11 +3,11 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <footer className="footer border-top-1" data-aos="fade-up">
+        <footer className="footer border-top-1">
             <div className="container">
                 <div className="row align-items-center text-center text-lg-left">
                     <div className="col-lg-2">
-                        <h2 className="logo mb-4">Vishakha.</h2>
+                        <h2 className="logo mb-4">_Vishakha</h2>
                     </div>
 
                     <div className="col-lg-5">
@@ -18,7 +18,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="col-lg-5">
-                        <p className="lead"><span className="text-color">DreamBig</span> © 2022 All Right Reserved Vishakha.</p>
+                        <p className="lead"><span className="text-color">DreamBig</span> © 2023 All Right Reserved Vishakha.</p>
                         {/* <a href='#navbar' className="backtop smoth-scroll"><i className="ti-angle-up"></i></a> */}
                     </div>
                 </div>
