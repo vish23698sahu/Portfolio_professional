@@ -10,12 +10,13 @@ import Navbar from './components/Navbar/Navbar';
 import Portfolio from './components/Portfolio/Portfolio';
 import Services from './components/Services/Services';
 import SingleBlog from './components/Blog/Single_Blog/SingleBlog';
+import Nav__save from './components/Navbar/Nav__save';
 
 
 function App() {
   return (
     <div>
-      <Navbar />
+      <Nav__save />
       <Route path='/' exact>
         <Home />
       </Route>
