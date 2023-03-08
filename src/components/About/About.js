@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from './media/Resume_Vishakha.pdf';
 import './About.css';
 
 const About = () => {
@@ -40,6 +41,11 @@ const About = () => {
             </div>
           </div>
         </div>
+
+        <div className="text-center">
+          <a className="btn-main text-white btn mt-5" href={resume} download >Download Resume</a>
+        </div>
+
       </div>
     </section>
   )
