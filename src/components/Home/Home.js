@@ -4,7 +4,6 @@ import './Home.css';
 import About from '../About/About';
 import Expertise from '../Expertise/Expertise';
 import Portfolio from '../Portfolio/Portfolio';
-// import Blog from '../Blog/Blog';
 import Contact from '../Contact/Contact';
 
 const Home = () => {
@@ -28,7 +27,6 @@ const Home = () => {
                 <p className="animated fadeInUp lead mt-4 mb-5 text-white-50 lh-35">
                   A Front End Web Developer, Highly engaged in building clean front end code.<br />
                   Well organized person, problem solver, with love for books, outdoor games, and Yoga.
-                  {/* In love with the Web and the work I do. */}
                 </p>
                 <a href="#about" className="btn-solid-border btn-me btn mt-5 ">About Me</a>
               </div>
@@ -38,17 +36,13 @@ const Home = () => {
       </section>
 
       {/* About */}
-      <About /><br /><br /><br /><br />
+      <About />
 
       {/* Expertise */}
-      <Expertise /><br /><br /><br /><br />
-
+      <Expertise />
 
       {/* Portfolio */}
-      <Portfolio /><br /><br /><br /><br />
-
-      {/* Blog */}
-      {/* <Blog /><br /><br /><br /><br /> */}
+      <Portfolio />
 
       {/* Contact */}
       <Contact />

@@ -18,7 +18,6 @@ const Portfolio = () => {
       </div>
 
       <div className="post_gallery portfolio__container owl-theme">
-        {/* owl-carousel */}
         {
           PortfolioData.map((value, index) => {
             return <PortfolioCard key={index} img={value.image} title={value.title} text={value.text} pUrl={value.pUrl} />

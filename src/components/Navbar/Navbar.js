@@ -24,14 +24,13 @@ const Nav__save = () => {
               <li className="nav-item"><a class="nav-link smoth-scroll" href="#about">About</a></li>
               <li className="nav-item"><a className="nav-link smoth-scroll" href="#skillbar">Skills</a></li>
               <li className="nav-item"><a className="nav-link smoth-scroll" href="#portfolio">portfolio</a></li>
-              {/* <li className="nav-item"><a className="nav-link smoth-scroll" href="#blog">Blog</a></li> */}
               <li className="nav-item"><a className="nav-link smoth-scroll" href="#contact">Contact</a></li>
             </ul>
 
             <ul className="list-inline mb-0 ml-lg-4 nav-social">
-              <li className="list-inline-item"><a href="https://github.com/vish23698sahu" target='_blank' rel="noreferrer"><i className="ti-github"></i></a></li>
+              <li className="list-inline-item"><a href="https://github.com/vish23698sahu" target='_blank' rel="noreferrer"><i className="fa fa-github"></i></a></li>
               <li className="list-inline-item"><a href="https://www.linkedin.com/in/vishakhasahu/" target='_blank' rel="noreferrer"><i className="ti-linkedin"></i></a></li>
-              <li className="list-inline-item"><a href="https://www.instagram.com/" target='_blank' rel="noreferrer" ><i className="fa-brands fa-instagram"></i></a></li>
+              {/* <li className="list-inline-item"><a href="https://www.instagram.com/" target='_blank' rel="noreferrer" ><i className="fa-brands fa-instagram"></i></a></li> */}
             </ul>
           </div>
         </div>
