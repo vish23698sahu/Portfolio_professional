@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Contact.css';
 
 const Contact = () => {
+  const [sent, setSent] = useState(false);
 
   const onSubmitClickHandler = (e) => {
+    setSent(false);
     e.preventDefault();
     const scriptURL = 'https://script.google.com/macros/s/AKfycbwfa8SDWR7O-eFHI0bexwhISYhz8Mwydtvpb2a8h7z2njN_I5ICgU9BAv6r4gtX-f97EQ/exec'
     const form = document.forms['submit-to-google-sheet']
@@ -11,7 +13,9 @@ const Contact = () => {
     form.addEventListener('submit', e => {
       e.preventDefault()
       fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-        .then(response => console.log('Success!', response))
+        .then(response => {
+          setSent(true);
+        })
         .catch(error => console.error('Error!', error.message))
     })
   }
@@ -32,14 +36,16 @@ const Contact = () => {
 
           <div className="col-lg-8">
 
-            {/* <div className="row">
-              <div className="col-12">
-                <div className="alert alert-success contact__msg" role="alert">
-                  contact__form
-                  Your message was sent successfully.
+            {
+              sent &&
+              <div className="row center">
+                <div className="col-6">
+                  <div className="alert alert-success contact__msg" role="alert">
+                    Your message was sent successfully.
+                  </div>
                 </div>
               </div>
-            </div> */}
+            }
 
             <form className="contact__form form-row contact-form" onSubmit={onSubmitClickHandler} name='submit-to-google-sheet' id="contactForm">
 

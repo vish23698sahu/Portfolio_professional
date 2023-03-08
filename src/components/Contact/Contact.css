@@ -107,4 +107,14 @@
   color: white;
 }
 
+.contact__msg{
+  text-align: center;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+
 
