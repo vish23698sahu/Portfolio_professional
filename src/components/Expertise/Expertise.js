@@ -38,7 +38,7 @@ const Expertise = () => {
             <div className="skill-bar mb-4 mb-lg-0">
               <div className="mb-4 text-right"><h4 className="font-weight-normal">Beginner</h4></div>
               <div className="progress">
-                <div className="progress-bar" data-percent="95">
+                <div className="progress-bar" data-percent="65">
                   <span className="percent-text skill__text">WordPress</span>
                 </div>
               </div>
@@ -49,7 +49,7 @@ const Expertise = () => {
             <div className="skill-bar mb-4 mb-lg-0">
               <div className=" mb-4 text-right"><h4 className="font-weight-normal">Profecient</h4></div>
               <div className="progress">
-                <div className="progress-bar" data-percent="60">
+                <div className="progress-bar" data-percent="80">
                   <span className="percent-text skill__text">Dotnet</span>
                 </div>
               </div>
