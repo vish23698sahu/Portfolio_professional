@@ -43,8 +43,14 @@ const Contact = () => {
       fetch(scriptURL, { method: 'POST', body: new FormData(form) })
         .then(response => {
           setSent(true);
+          setName('');
+          setMail('');
+          setSubject('');
+          setMessage('');
         })
-        .catch(error => console.error('Error!', error.message))
+        .catch(error => {
+          console.error('Error!', error.message);
+        })
     })
     setIsValid(false);
   }
