@@ -17,8 +17,8 @@ const About = () => {
                 <h2><i className="ti-minus"></i>Myself</h2>
               </div>
               <div className="col-lg-8">
-                <p className="text-white-50 text-md">Greetings! I'm <span className="text-white">Vishakha Sahu,</span> a proficient <span className="text-white">Full Stack Developer</span> boasting more than <span className="text-white">2 years</span> of industry experience.</p>
-                <p className="text-white-50 text-md">With a deep-seated passion for the world of Web, every project I undertake is a labor of love.<p>I believe in fostering strong relationships with my clients, </p> striving to deliver tailor-made solutions that perfectly align with their unique requirements.</p>
+                <p className="text-white-30 text-md">Greetings! I'm <span className="text-white">Vishakha Sahu,</span> a proficient <span className="text-white">Full Stack Developer</span> boasting more than <span className="text-white">2 years</span> of industry experience.</p>
+                <p className="text-white-30 text-md">With a deep-seated passion for the world of Web, every project I undertake is a labor of love.<p>I believe in fostering strong relationships with my clients, </p> striving to deliver tailor-made solutions that perfectly align with their unique requirements.</p>
               </div>
             </div>
           </div>
