@@ -17,7 +17,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="col-lg-5">
-                        <p className="lead"><span className="text-color">DreamBig</span> © 2023 All Right Reserved Vishakha.</p>
+                        <p className="lead">© 2023 All Right Reserved Vishakha Sahu.</p>
                     </div>
                 </div>
             </div>
@@ -25,4 +25,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
+export default Footer;
