@@ -17,8 +17,8 @@ const About = () => {
                 <h2><i className="ti-minus"></i>Myself</h2>
               </div>
               <div className="col-lg-8">
-                <p className="text-white-50 text-md">Hello! Im <span className="text-white">Vishakha Sahu</span> a self-taught Digital <span className="text-white">Designer & Developer</span> with over <span className="text-white">1.5 years</span> of work experience.</p>
-                <p className="text-white-50 text-md">Love the Web and the work I do. Work closely with my users to deliver the best <span className="text-white">possible solutions</span> for their requirements.</p>
+                <p className="text-white-50 text-md">Greetings! I'm <span className="text-white">Vishakha Sahu,</span> a proficient <span className="text-white">Full Stack Developer</span> boasting more than <span className="text-white">2 years</span> of industry experience.</p>
+                <p className="text-white-50 text-md">With a deep-seated passion for the world of Web, every project I undertake is a labor of love.<p>I believe in fostering strong relationships with my clients, </p> striving to deliver tailor-made solutions that perfectly align with their unique requirements.</p>
               </div>
             </div>
           </div>
@@ -45,10 +45,9 @@ const About = () => {
         <div className="text-center">
           <a className="btn-main text-white btn mt-5" href={resume} download >Download Resume</a>
         </div>
-
       </div>
     </section>
   )
 }
 
-export default About
+export default About;

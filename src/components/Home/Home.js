@@ -46,7 +46,6 @@ const Home = () => {
 
       {/* Contact */}
       <Contact />
-
     </div>
   )
 }
