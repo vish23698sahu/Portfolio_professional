@@ -17,8 +17,8 @@ const About = () => {
                 <h2><i className="ti-minus"></i>Myself</h2>
               </div>
               <div className="col-lg-8">
-                <p className="text-white-30 text-md">Greetings! I'm <span className="text-white">Vishakha Sahu,</span> a proficient <span className="text-white">Full Stack Developer</span> boasting more than <span className="text-white">2 years</span> of industry experience.</p>
-                <p className="text-white-30 text-md">With a deep-seated passion for the world of Web, every project I undertake is a labor of love.<p>I believe in fostering strong relationships with my clients, </p> striving to deliver tailor-made solutions that perfectly align with their unique requirements.</p>
+                <p className="text-white-30 text-md"><span className="text-white">Full Stack Developer</span> boasting more than <span className="text-white">2 years</span> of industry experience.</p>
+                <p className="text-white-30 text-md">Responsible for Developing and Testing software deliverables, ensuring proper CI/CD and maintenance in production post Deployment. </p><p className="text-white-30 text-md">Adapted to changing requirements and priorities in an Agile Development environment using JIRA.</p>
               </div>
             </div>
           </div>
@@ -33,9 +33,9 @@ const About = () => {
                 </p>
 
                 <ul className="list-unstyled lh-45">
-                  <li> <i className="ti-check mr-3 text-color"></i><span className="text-white-50">Web Designing</span> - HTML/CSS</li>
+                  <li> <i className="ti-check mr-3 text-color"></i><span className="text-white-50">Web Designing</span> - HTML/CSS3</li>
                   <li><i className="ti-check mr-3 text-color"></i><span className="text-white-50">Web Development</span> - REACT/NODEJS</li>
-                  <li><i className="ti-check mr-3 text-color"></i><span className="text-white-50">Application Dev</span> - DOTNET/MYSQL</li>
+                  <li><i className="ti-check mr-3 text-color"></i><span className="text-white-50">Application Dev</span> - DOTNET CORE/MYSQL</li>
                 </ul>
               </div>
             </div>
@@ -46,7 +46,7 @@ const About = () => {
           <a className="btn-main text-white btn mt-5" href={resume} download >Download Resume</a>
         </div>
       </div>
-    </section>
+    </section >
   )
 }
 
