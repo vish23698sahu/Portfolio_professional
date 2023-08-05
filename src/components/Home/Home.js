@@ -21,11 +21,11 @@ const Home = () => {
             <div className="col-lg-6 col-12 col-md-7">
               <div className="ml-5 position-relative mt-5 mt-lg-0">
                 <span className="head-trans">Vishakha</span>
-                <h1 className="font-weight-normal text-color text-md"><i className="ti-minus mr-2"></i>React Developer</h1>
+                <h1 className="font-weight-normal text-color text-md"><i className="ti-minus mr-2"></i>Full Stack Developer</h1>
                 <h2 className="mt-3 text-lg mb-3 text-capitalize">Vishakha Sahu.</h2>
                 <p className="animated fadeInUp lead mt-4 mb-5 text-white-50 lh-35">
-                  Passionate Full Stack Developer, specialized in crafting clean, user-friendly interfaces.
-                  A highly organized problem-solver, dedicated to creating efficient code.<br />
+                  Full Stack Developer with 2+ years of experience in building web APIs and user-friendly interfaces.<br />
+                  Skilled in .Net web APIs, MS SQL, React, Data Structures and Algorithms.
                   Beyond my technical expertise, I am an avid reader, a lover of outdoor games, and a Yoga enthusiast.
                 </p>
                 <a href="#about" className="btn-solid-border btn-me btn mt-5 button_about">About Me</a>
@@ -35,16 +35,12 @@ const Home = () => {
         </div>
       </section>
 
-      {/* About */}
       <About />
 
-      {/* Expertise */}
       <Expertise />
 
-      {/* Portfolio */}
       <Portfolio />
 
-      {/* Contact */}
       <Contact />
     </div>
   )
