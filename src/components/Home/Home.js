@@ -5,6 +5,8 @@ import Expertise from '../Expertise/Expertise';
 import Portfolio from '../Portfolio/Portfolio';
 import profilePic from '../images/profilephoto.png';
 import './Home.css';
+import ShoutOut from '../ShoutOut/ShoutOut';
+import CheatSheet from '../CheatSheet/CheatSheet';
 
 const Home = () => {
   return (
@@ -42,6 +44,10 @@ const Home = () => {
       <Portfolio />
 
       <Contact />
+
+      <CheatSheet />
+
+      <ShoutOut />
     </div>
   )
 }

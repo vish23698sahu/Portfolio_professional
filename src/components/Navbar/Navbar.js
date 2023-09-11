@@ -24,6 +24,8 @@ const Nav__save = () => {
             <li className="nav-item"><a className="nav-link smoth-scroll" href="#skillbar">Skills</a></li>
             <li className="nav-item"><a className="nav-link smoth-scroll" href="#portfolio">portfolio</a></li>
             <li className="nav-item"><a className="nav-link smoth-scroll" href="#contact">Contact</a></li>
+            <li className="nav-item"><a className="nav-link smoth-scroll" href="#sheet">CheatSheet</a></li>
+            <li className="nav-item"><a className="nav-link smoth-scroll" href="#shout">ShoutOut!</a></li>
           </ul>
 
           <ul className="list-inline mb-0 ml-lg-4 nav-social">
