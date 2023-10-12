@@ -3,7 +3,7 @@ import About from '../About/About';
 import Contact from '../Contact/Contact';
 import Expertise from '../Expertise/Expertise';
 import Portfolio from '../Portfolio/Portfolio';
-import profilePic from '../images/profilephoto.png';
+import profilePic from '../images/profilephoto.jpg';
 import './Home.css';
 import ShoutOut from '../ShoutOut/ShoutOut';
 import CheatSheet from '../CheatSheet/CheatSheet';
